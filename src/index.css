@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+
+.sat-font {
+  font-family: "Caveat", cursive;
+  font-weight: 500;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.profile-card {
+  text-align: center;
+  max-width: 600px;
+}
+
+.descript {
+  text-align: left;
+  margin: 0 10px;
+  padding-bottom: 10px;
+}
+
+.img-box {
+  text-align: center;
+}
+
+.shadow-gray {
+  box-shadow: 0px 0px 10px 3px gray;
+}
+
+.profile-img {
+  border-radius: 10px;
+  margin: 5px 0;
+}
+
+.skills {
+  margin: 5px 10px;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  box-shadow: 0px 0px 10px 2px #f6f6ff;
+}
+
+.skills > img {
+  width: 40px;
+  margin: 10px 5px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
