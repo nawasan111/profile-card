@@ -9,12 +9,12 @@ class Skills extends React.Component {
     return (
       <div className="skills">
         <img
-          src="https://github.com/tandpfun/skill-icons/raw/main/icons/TypeScript.svg"
-          alt="TypeScript"
-        />
-        <img
           src="https://github.com/tandpfun/skill-icons/raw/main/icons/React-Light.svg"
           alt="React"
+        />
+        <img
+          src="https://github.com/tandpfun/skill-icons/raw/main/icons/TypeScript.svg"
+          alt="TypeScript"
         />
         <img
           src="https://github.com/tandpfun/skill-icons/raw/main/icons/JavaScript.svg"
