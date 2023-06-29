@@ -3,33 +3,19 @@ import React from "react";
 class Avatar extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { clickCount: 0, isVisible: true };
   }
   render() {
     return (
-      <>
-        {this.state.isVisible && (
-          <div className="img-box">
-            <img
-              onClick={() => {
-                if (this.state.clickCount === 0) {
-                  alert("จะคลิกที่รูปภาพทำไม มันไม่มีอะไรหรอก");
-                } else if (this.state.clickCount === 1) {
-                  alert("ยังจะคลิกอีก! ก็บอกอยู่ว่ามันไม่มีอะไรยังไงเล่า");
-                } else if (this.state.clickCount === 2) {
-                  alert("ยัง ยัง ยังไม่หยุดอีก! ไม่ให้คลิกแล้ว");
-                  this.setState({ isVisible: false });
-                }
-                this.setState({ clickCount: this.state.clickCount + 1 });
-              }}
-              className="profile-img shadow-gray"
-              width={300}
-              src="/profile.jpeg"
-              alt="profile image"
-            />
-          </div>
-        )}
-      </>
+      <div className="img-box">
+        <img
+          className="profile-img shadow-gray"
+          width={300}
+          src={
+            "https://64.media.tumblr.com/3ac214c9a025a4dffe568496ca1d771a/c82696408e1e065d-66/s540x810/fd8ddf1639274662a49fc7e1b0d0e4637132f875.gifv"
+          }
+          alt="profile image"
+        />
+      </div>
     );
   }
 }
